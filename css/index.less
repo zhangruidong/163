@@ -1,0 +1,197 @@
+@r:50rem;
+a,
+input,
+button {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+input,
+button {
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+body {
+  margin: 0;
+  -webkit-user-select: none;
+}
+body * {
+  -webkit-user-select: none;
+  font-family: Helvetica;
+}
+body {
+  -webkit-text-size-adjust: 100%;
+}
+html,body,#page {
+  width:100%;
+  height: 100%;
+  overflow: hidden;
+}
+#page{/*可视区*/
+
+}
+#scroll {/*滚动部分*/
+  position: relative;
+  #more {
+    position: absolute;
+    left: 0;
+    top: -60/@r;
+    width: 100%;
+    font-size: 38/@r;
+    text-align: center;
+  }
+  header {
+    height: 88/@r;
+    background-color: #fff;
+    position: relative;
+
+    span{
+      position: absolute;
+      width:67/@r;
+      height: 62/@r;
+      top:12/@r;
+      background-color: red;
+    }
+    span:nth-of-type(1){
+      left:13/@r;
+      background: url("../img/icon-personal-v2.png") 16/@r 10/@r no-repeat;
+      background-size: 33/@r 40/@r;
+     }
+    span:nth-of-type(2){
+      right:83/@r;
+      background: url("../img/download_2017.png") 16/@r 7/@r no-repeat;
+      background-size: 50/@r 54/@r;
+    }
+    span:nth-of-type(3){
+      right:16/@r;
+      background: url("../img/icon-email-v2.png") 12/@r 12/@r no-repeat;
+      background-size: 43/@r 40/@r;
+    }
+    #logo {
+      width:241/@r;
+      height: 70/@r;
+      background: url("../img/logo_2017_v1.png") 0 20/@r no-repeat;
+      background-size: 241/@r 50/@r;
+      margin: 0/@r auto;
+    }
+  }
+  nav {
+    font-size: 32/@r;
+    width:100%;
+    background-color: #ff3333;
+    position: relative;
+    height: 82/@r;
+    #wrap{
+      height: 82/@r;
+      position: absolute;
+      overflow: hidden;
+      left: 40/@r;
+      right:82/@r;
+      ul{
+        width:2300/@r;
+        height: 82/@r;
+        line-height: 82/@r;
+        background-color: #ff3333;
+
+        li {
+          float: left;
+          margin-right: 32/@r;
+        }
+        a{
+          color: #ffcccc;
+        }
+      }
+    }
+    #arrow {
+      position: absolute;
+      right: 8/@r;
+      top:0;
+      height: 80/@r;
+      width:64/@r;
+      background: url("../img/down_arrow.png") 10/@r 32/@r no-repeat;
+      background-size: 44/@r 24/@r;
+    }
+  }
+
+  content {
+    width:100%;
+    #slideWrap {
+      height: 380/@r;
+      position: relative;
+      #num {
+        position: absolute;
+        right: 16/@r;
+        top:16/@r;
+        font-size: 46/@r;
+        color: #000;
+        span:first-child {
+          color: #ff3333;
+          font-size: 58/@r;
+        }
+      }
+      #slide {
+        height:380/@r;
+        li{
+          float: left;
+          img {
+            width:15rem;
+            height: 380/@r;
+          }
+        }
+      }
+    }
+    #items {
+      box-sizing: border-box;
+      width:100%;
+      padding:0 30/@r 0;
+      background-color: #f6f6f6;
+      li{
+        box-sizing: border-box;
+        height: 131/@r;
+        border-bottom: 1px solid #e5e5e5;
+        padding-top: 28/@r;
+        span{
+          display: inline-block;
+        }
+        span.category{
+          vertical-align: top;
+          border-right: 1px solid #d2d2d2;
+          width:59/@r;
+          height: 33/@r;
+          font-size: 23/@r;
+          line-height: 33/@r;
+          color: #a0a0a0;
+        }
+        span.title{
+          margin-top: -8/@r;
+          width:496/@r;
+          font-size: 32/@r;
+          line-height: 45/@r;
+          color: #404040;
+          vertical-align: top;
+        }
+        span.tcount {
+          box-sizing: border-box;
+          vertical-align: top;
+          width:104/@r;
+          height: 33/@r;
+          font-size: 23/@r;
+          line-height: 33/@r;
+          color: #a0a0a0;
+          padding-left: 42/@r;
+          background: url("../img/news.png") no-repeat;
+          background-size: 36/@r 33/@r;
+        }
+      }
+    }
+    footer {
+      position: absolute;
+      left: 0;
+      bottom: -60/@r;
+      width: 100%;
+      text-align: center;
+      font-size: 32/@r;
+      line-height: 45/@r;
+      color: #404040;
+      vertical-align: top;
+    }
+  }
+}

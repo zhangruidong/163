@@ -1,0 +1,196 @@
+a,
+input,
+button {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+input,
+button {
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+body {
+  margin: 0;
+  -webkit-user-select: none;
+}
+body * {
+  -webkit-user-select: none;
+  font-family: Helvetica;
+}
+body {
+  -webkit-text-size-adjust: 100%;
+}
+html,
+body,
+#page {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+#page {
+  /*可视区*/
+}
+#scroll {
+  /*滚动部分*/
+  position: relative;
+}
+#scroll #more {
+  position: absolute;
+  left: 0;
+  top: -1.2rem;
+  width: 100%;
+  font-size: 0.76rem;
+  text-align: center;
+}
+#scroll header {
+  height: 1.76rem;
+  background-color: #fff;
+  position: relative;
+}
+#scroll header span {
+  position: absolute;
+  width: 1.34rem;
+  height: 1.24rem;
+  top: 0.24rem;
+  background-color: red;
+}
+#scroll header span:nth-of-type(1) {
+  left: 0.26rem;
+  background: url("../img/icon-personal-v2.png") 0.32rem 0.2rem no-repeat;
+  background-size: 0.66rem 0.8rem;
+}
+#scroll header span:nth-of-type(2) {
+  right: 1.66rem;
+  background: url("../img/download_2017.png") 0.32rem 0.14rem no-repeat;
+  background-size: 1rem 1.08rem;
+}
+#scroll header span:nth-of-type(3) {
+  right: 0.32rem;
+  background: url("../img/icon-email-v2.png") 0.24rem 0.24rem no-repeat;
+  background-size: 0.86rem 0.8rem;
+}
+#scroll header #logo {
+  width: 4.82rem;
+  height: 1.4rem;
+  background: url("../img/logo_2017_v1.png") 0 0.4rem no-repeat;
+  background-size: 4.82rem 1rem;
+  margin: 0rem auto;
+}
+#scroll nav {
+  font-size: 0.64rem;
+  width: 100%;
+  background-color: #ff3333;
+  position: relative;
+  height: 1.64rem;
+}
+#scroll nav #wrap {
+  height: 1.64rem;
+  position: absolute;
+  overflow: hidden;
+  left: 0.8rem;
+  right: 1.64rem;
+}
+#scroll nav #wrap ul {
+  width: 46rem;
+  height: 1.64rem;
+  line-height: 1.64rem;
+  background-color: #ff3333;
+}
+#scroll nav #wrap ul li {
+  float: left;
+  margin-right: 0.64rem;
+}
+#scroll nav #wrap ul a {
+  color: #ffcccc;
+}
+#scroll nav #arrow {
+  position: absolute;
+  right: 0.16rem;
+  top: 0;
+  height: 1.6rem;
+  width: 1.28rem;
+  background: url("../img/down_arrow.png") 0.2rem 0.64rem no-repeat;
+  background-size: 0.88rem 0.48rem;
+}
+#scroll content {
+  width: 100%;
+}
+#scroll content #slideWrap {
+  height: 7.6rem;
+  position: relative;
+}
+#scroll content #slideWrap #num {
+  position: absolute;
+  right: 0.32rem;
+  top: 0.32rem;
+  font-size: 0.92rem;
+  color: #000;
+}
+#scroll content #slideWrap #num span:first-child {
+  color: #ff3333;
+  font-size: 1.16rem;
+}
+#scroll content #slideWrap #slide {
+  height: 7.6rem;
+}
+#scroll content #slideWrap #slide li {
+  float: left;
+}
+#scroll content #slideWrap #slide li img {
+  width: 15rem;
+  height: 7.6rem;
+}
+#scroll content #items {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0 0.6rem 0;
+  background-color: #f6f6f6;
+}
+#scroll content #items li {
+  box-sizing: border-box;
+  height: 2.62rem;
+  border-bottom: 1px solid #e5e5e5;
+  padding-top: 0.56rem;
+}
+#scroll content #items li span {
+  display: inline-block;
+}
+#scroll content #items li span.category {
+  vertical-align: top;
+  border-right: 1px solid #d2d2d2;
+  width: 1.18rem;
+  height: 0.66rem;
+  font-size: 0.46rem;
+  line-height: 0.66rem;
+  color: #a0a0a0;
+}
+#scroll content #items li span.title {
+  margin-top: -0.16rem;
+  width: 9.92rem;
+  font-size: 0.64rem;
+  line-height: 0.9rem;
+  color: #404040;
+  vertical-align: top;
+}
+#scroll content #items li span.tcount {
+  box-sizing: border-box;
+  vertical-align: top;
+  width: 2.08rem;
+  height: 0.66rem;
+  font-size: 0.46rem;
+  line-height: 0.66rem;
+  color: #a0a0a0;
+  padding-left: 0.84rem;
+  background: url("../img/news.png") no-repeat;
+  background-size: 0.72rem 0.66rem;
+}
+#scroll content footer {
+  position: absolute;
+  left: 0;
+  bottom: -1.2rem;
+  width: 100%;
+  text-align: center;
+  font-size: 0.64rem;
+  line-height: 0.9rem;
+  color: #404040;
+  vertical-align: top;
+}
